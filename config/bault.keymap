@@ -51,12 +51,12 @@
 			key-positions = <22 23>; 	
 			bindings = <&kp ESC>;
 		    };
-		    combo_l2left {
+		    combo_l3left {
 			timeout-ms = <50>;
 			key-positions = <31 32>;
 			bindings = <&mo 3>;
 		    };
-		     combo_l2right {
+		     combo_l3right {
 			timeout-ms = <50>;
 			key-positions = <35 36>;
 			bindings = <&mo 3>;
@@ -124,7 +124,7 @@
 	        >;
 	    };
 	
-	    fn_symb {
+	    sym_layer {
 	        bindings = <
 	            &none          &none      &none      &none      &none      &none      &none      &none      &none      &none     &none      
 	            &none          &kp LEFT   &kp UP     &kp DOWN   &kp RIGHT  &none      &as LBKT   &as RBKT   &as BSLH   &trans
@@ -133,7 +133,7 @@
 	        >;
 	    };
 	
-	    nav_layer {
+	    func_layer {
 	        bindings = <
 	            &kp F1         &kp F2        &kp F3           &kp F4           &kp F5   &kp F6   &kp F7   &kp F8   &kp F9   &kp F10   &kp F11
 	            &bt BT_CLR     &bt BT_SEL 0  &bt BT_SEL 1     &bt BT_SEL 2     &none    &none    &none    &none    &kp F12  &trans 
