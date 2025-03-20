@@ -111,7 +111,7 @@ keymap {
             &ht LALT Q     &kp W      &kp E      &kp R      &kp T      &kp Y      &kp U      &kp I      &kp O      &kp P      &as SQT    
             &ht LCTRL A    &kp S      &kp D      &kp F      &kp G      &kp H      &kp J      &kp K      &kp L      &kp RET     
             &ht LSHIFT Z   &kp X      &kp C      &kp V      &kp B      &kp N      &kp M      &as COMMA  &as DOT    &as FSLH
-                                      &kp LGUI   &mo 2      &lt 1 BSPC &lt 1 SPACE &mo 2      &kp RGUI
+                           &none      &kp N1     &kp N2     &kp BSPC   &kp SPACE  &kp N3     &kp N4     &kp none
         >;
     };
 
@@ -120,7 +120,7 @@ keymap {
             &as N1         &as N2     &as N3     &as N4     &as N5     &as N6     &as N7     &as N8     &as N9     &as N0     &as GRAVE 
             &kp LEFT       &kp UP     &kp DOWN   &kp RIGHT  &none      &none      &as SEMI   &as MINUS  &as EQUAL  &trans
             &trans         &none      &none      &none      &none      &none      &none      &trans     &trans     &trans
-                                      &trans     &trans     &trans     &trans     &trans     &trans
+                           &trans     &trans     &trans     &trans     &trans     &trans     &trans     &trans
         >;
     };
 
@@ -129,7 +129,7 @@ keymap {
             &none          &none      &none      &none      &none      &none      &none      &none      &none      &none     &none      
             &none          &kp LEFT   &kp UP     &kp DOWN   &kp RIGHT  &none      &as LBKT   &as RBKT   &as BSLH  &trans
             &none          &none      &none      &none      &none      &none      &none      &none      &none      &none
-                                      &trans     &trans     &trans     &trans     &trans     &trans
+                           &trans     &trans     &trans     &trans     &trans     &trans     &trans     &trans          
         >;
     };
 
@@ -138,7 +138,7 @@ keymap {
             &kp F1         &kp F2        &kp F3           &kp F4           &kp F5   &kp F6   &kp F7   &kp F8   &kp F9   &kp F10   &kp F11
             &bt BT_CLR     &bt BT_SEL 0  &bt BT_SEL 1     &bt BT_SEL 2     &none    &none    &none    &none    &kp F12   &trans 
             &none          &none         &none            &none            &none    &none    &none    &none    &none    &none
-                                         &trans           &trans           &trans   &trans   &trans   &trans
+                           &trans     &trans     &trans     &trans     &trans     &trans     &trans     &trans              
         >;
     };
 };
