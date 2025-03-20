@@ -44,22 +44,22 @@
             };
 	    combo_F3 {
 		timeout-ms = <40>;
-		key-positions = <1 2>;
+		key-positions = <21 22>;
 		bindings = <&kp F3>;
 	    };
 	    combo_esc {
 		timeout-ms = <40>;
-		key-positions = <22 23>; 	
+		key-positions = <0 11>; 	
 		bindings = <&kp ESC>;
 	    };
 	    combo_l2left {
 		timeout-ms = <50>;
-		key-positions = <31 32>;
+		key-positions = <33 34>;
 		bindings = <&mo 3>;
 	    };
 	     combo_l2right {
 		timeout-ms = <50>;
-		key-positions = <35 36>;
+		key-positions = <38 39>;
 		bindings = <&mo 3>;
 	    };
             combo_reset {
@@ -111,7 +111,7 @@ keymap {
             &ht LALT Q     &kp W      &kp E      &kp R      &kp T      &kp Y      &kp U      &kp I      &kp O      &kp P      &as SQT    
             &ht LCTRL A    &kp S      &kp D      &kp F      &kp G      &kp H      &kp J      &kp K      &kp L      &kp RET     
             &ht LSHIFT Z   &kp X      &kp C      &kp V      &kp B      &kp N      &kp M      &as COMMA  &as DOT    &as FSLH
-                           &none      &kp N1     &kp N2     &kp BSPC   &kp SPACE  &kp N3     &kp N4     &none
+                        &none    &ht LGUI SEMI  &lt 2 MINUS    &lt 1 BSPC &lt 1 SPACE &lt 2 EQUAL  &ht RGUI BSLH  &none
         >;
     };
 
@@ -127,7 +127,7 @@ keymap {
     sym_layer {
         bindings = <
             &none          &none      &none      &none      &none      &none      &none      &none      &none      &none     &none      
-            &none          &kp LEFT   &kp UP     &kp DOWN   &kp RIGHT  &none      &as LBKT   &as RBKT   &as BSLH  &trans
+            &kp LEFT       &kp UP     &kp DOWN   &kp RIGHT  &none      &none      &as LBKT   &as RBKT   &as BSLH   &trans     
             &none          &none      &none      &none      &none      &none      &none      &none      &none      &none
                            &trans     &trans     &trans     &trans     &trans     &trans     &trans     &trans          
         >;
