@@ -118,7 +118,7 @@
 	    num_layer {
 	        bindings = <
 	            &as N1         &as N2     &as N3     &as N4     &as N5     &as N6     &as N7     &as N8     &as N9     &as N0     &as GRAVE 
-	            &kp LEFT       &kp UP     &kp DOWN   &kp RIGHT  &none      &none      &as SEMI   &as MINUS  &as PLUS   &trans
+	            &kp LEFT       &kp UP     &kp DOWN   &kp RIGHT  &none      &none      &as SEMI   &as MINUS  &as EQUAL   &trans
 	            &trans         &none      &none      &none      &none      &none      &none      &trans     &trans     &trans
 	                                      &trans     &trans     &trans     &trans     &trans     &trans
 	        >;
