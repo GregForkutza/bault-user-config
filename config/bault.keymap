@@ -127,7 +127,7 @@
 	    fn_symb {
 	        bindings = <
 	            &none          &none      &none      &none      &none      &none      &none      &none      &none      &none     &none      
-	            &none          &kp LEFT   &kp UP     &kp DOWN   &kp RIGHT  &none      &as LBKT   &as RBKT   &as BSLSH  &trans
+	            &none          &kp LEFT   &kp UP     &kp DOWN   &kp RIGHT  &none      &as LBKT   &as RBKT   &as BSLH  &trans
 	            &none          &none      &none      &none      &none      &none      &none      &none      &none      &none
 	                                      &trans     &trans     &trans     &trans     &trans     &trans
 	        >;
