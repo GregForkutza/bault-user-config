@@ -112,6 +112,10 @@ keymap {
             &ht LCTRL A    &kp S      &kp D      &kp F      &kp G      &kp H      &kp J      &kp K      &kp L      &kp RET     
             &ht LSHIFT Z   &kp X      &kp C      &kp V      &kp B      &kp N      &kp M      &as COMMA  &as DOT    &ht RSHIFT FSLH
                         &none    &ht LGUI SEMI  &lt 2 MINUS &lt 1 BSPC &lt 1 SPACE &lt 2 EQUAL  &ht RGUI BSLH   &none
+	>;
+    };
+
+    num_layer {
         bindings = <
             &as N1         &as N2     &as N3     &as N4     &as N5     &as N6     &as N7     &as N8     &as N9     &as N0     &as GRAVE 
             &kp LEFT       &kp UP     &kp DOWN   &kp RIGHT  &none      &none      &as SEMI   &as MINUS  &as EQUAL  &trans
