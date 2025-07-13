@@ -47,6 +47,7 @@
         combo_tab {
             timeout-ms = <40>;
             key-positions = <0 1>;
+            layers = <0>;
             bindings = <&kp TAB>;
         };
         
@@ -64,7 +65,8 @@
         
         combo_esc {
             timeout-ms = <40>;
-            key-positions = <0 11>;
+            key-positions = <0 1>;
+            layers = <1>;
             bindings = <&kp ESC>;
         };
         
@@ -137,7 +139,7 @@
             bindings = <
                 &as N1          &as N2          &as N3          &as N4          &as N5          &as N6          &as N7          &as N8          &as N9          &as N0          &as GRAVE 
                 &kp LEFT        &kp UP          &kp DOWN        &kp RIGHT       &none           &none           &as LBKT        &as RBKT        &kp SEMI        &trans
-                &trans          &none           &none           &kp C_PREV      &kp C_NEXT      &kp C_VOL_DOWN  &kp C_VOL_UP    &kp C_PP        &trans          &trans
+                &trans          &none           &none           &kp C_PREV      &kp C_NEXT      &kp C_VOL_DN  &kp C_VOL_UP      &kp C_PP        &trans          &trans
                                 &trans          &trans          &trans          &trans          &trans          &trans          &trans          &trans
             >;
         };
